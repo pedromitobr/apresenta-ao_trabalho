@@ -9,7 +9,7 @@ produtos = {
 }
 
 class ListaDeCompra:
-    def _init_(self):
+    def __init__(self):
         self.itens = []
         self.valor_total = 0
 
